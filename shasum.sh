@@ -15,3 +15,5 @@ else
 fi
 
 echo $today
+
+# find ansible/ -type f -exec md5sum {} \; | awk '{print $1}' | md5sum
